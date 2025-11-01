@@ -4,7 +4,7 @@ pipeline {
     }
     
     environment {
-        DOCKER_IMAGE = 'discoverdevops/my-app:latest'
+        DOCKER_IMAGE = 'yellammam/my-app:latest'
         GIT_REPO = 'https://github.com/devopscloud-java/JenkinsDemo.git'
     }
 
